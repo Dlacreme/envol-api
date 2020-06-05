@@ -2,7 +2,7 @@
   "name": "envol-api",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Envol API",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,20 +11,21 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "knex": "<0.20.0",
+    "pg": "^8.2.1",
+    "sqlite3": "latest",
     "strapi": "3.0.1",
     "strapi-admin": "3.0.1",
-    "strapi-utils": "3.0.1",
-    "strapi-plugin-content-type-builder": "3.0.1",
+    "strapi-connector-bookshelf": "3.0.1",
     "strapi-plugin-content-manager": "3.0.1",
-    "strapi-plugin-users-permissions": "3.0.1",
+    "strapi-plugin-content-type-builder": "3.0.1",
     "strapi-plugin-email": "3.0.1",
     "strapi-plugin-upload": "3.0.1",
-    "strapi-connector-bookshelf": "3.0.1",
-    "knex": "<0.20.0",
-    "sqlite3": "latest"
+    "strapi-plugin-users-permissions": "3.0.1",
+    "strapi-utils": "3.0.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Dlacreme"
   },
   "strapi": {
     "uuid": "c1061113-de19-4eeb-9b8d-ad4f59486586"
